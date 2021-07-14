@@ -2,17 +2,19 @@
 運用windows工作排程器執行自動簽到動作
 ![image](https://user-images.githubusercontent.com/87114199/125604512-070404ad-102c-42d7-aaf2-f8ff0d4b1cbe.png)
 ## 需求
-1.python虛擬環境(使用anaconda3安裝環境)  
+#### 1.python虛擬環境(使用anaconda3安裝環境)  
 ![image](https://user-images.githubusercontent.com/87114199/125605533-e36c9a3e-61e3-4870-8043-5533f4cfd113.png)
-2.Python selenium安裝(python環境下安裝)  
-3.chromedriver驅動(依照chrome版本選擇)  
+#### 2.chromedriver驅動(依照chrome版本選擇)  
 ![image](https://user-images.githubusercontent.com/87114199/125605663-04c75498-7f3c-4010-bbcc-308d530f8d47.png)
-
+#### 3.Python selenium安裝(python環境下安裝)  
+### 下載
+[Anaconda](https://www.anaconda.com/products/individual "懸停顯示")  
+[chromeDriver](https://chromedriver.chromium.org/downloads "懸停顯示")  
 ## 步驟
-### step 1 anaconda3
+### Step.1 anaconda3
 下載anaconda並完成安裝，記得在advanced options將Add Anaconda3 to my PATH environment variable選項打勾
 ![image](https://user-images.githubusercontent.com/87114199/125606264-b26831d8-fa2b-465a-8bf4-f75417d06071.png)
-### step 2 python虛擬環境  
+### Step.2 python虛擬環境  
 打開CMD創建一個python虛擬環境  
 輸入指令:conda create --name myenv  
 myenv可以改成自己想要的名字  
@@ -24,14 +26,14 @@ Proceed ([y]/n)?輸入y後按enter即可
   
 選擇myenv並且安裝jupyter notebook，安裝完畢後執行  
 ![image](https://user-images.githubusercontent.com/87114199/125608339-d023dc7f-c312-4826-b5b9-d5b94bec5e67.png)  
-### step 3 selenium安裝  
+### Step.3 selenium安裝  
 啟動myenv虛擬環境
 輸入指令:conda activate myenv
 ![image](https://user-images.githubusercontent.com/87114199/125607453-5daf6f99-b8f7-4bc2-9af8-2bbe6c35eb63.png)  
 安裝selenium
 輸入指令:pip install selenium
 ![image](https://user-images.githubusercontent.com/87114199/125607631-d478d1a1-9a70-42f3-b113-0f3cb3c9f6df.png)  
-### step 4 chromedriver
+### Step.4 chromedriver
 下載chromedriver並解壓縮  
 將chromedriver.exe檔案移至虛擬環境的scripts資料夾  
 <img width="773" alt="螢幕擷取畫面 2021-07-14 183807" src="https://user-images.githubusercontent.com/87114199/125608747-ffe21471-2d99-4619-97b4-41742e2c8897.png">  
@@ -46,7 +48,7 @@ Proceed ([y]/n)?輸入y後按enter即可
 以記事本開啟autoSign.bat，將路徑改成你的路徑，圈起來的都要改  
 <img width="787" alt="螢幕擷取畫面 2021-07-14 191437" src="https://user-images.githubusercontent.com/87114199/125613208-ea6af868-ab63-4ea7-81a9-a5a84daa7205.png">  
 
-### step 6 工作排程器設定
+### Step.6 工作排程器設定
 windows搜尋欄搜尋工作排程器並開啟  
   
 右邊動左點選建立工作  
