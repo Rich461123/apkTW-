@@ -1,5 +1,5 @@
-call C:\Users\RiChe\anaconda3\Scripts\activate.bat  C:\Users\RiChe\anaconda3\envs\apkTW
+call C:\Users\user\anaconda3\Scripts\activate.bat  C:\Users\user\anaconda3\envs\myenv
 
-cd C:\Users\RiChe\anaconda3\envs\apkTW\Scripts
+cd C:\Users\user\anaconda3\envs\myenv\Scripts
 
 python apkTW.py
